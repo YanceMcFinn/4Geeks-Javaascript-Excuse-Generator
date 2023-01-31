@@ -16,7 +16,8 @@ function getWord(array) {
   return array[i];
 }
 function onLoad() {
-  let excuse = `${getWord(who)} ${getWord(action)} 
-    ${getWord(action)} ${getWord(what)} ${getWord(when)}`;
+  let excuse = `${getWord(who)} ${getWord(action)} ${getWord(what)} ${getWord(
+    when
+  )}`;
   document.getElementById("excuse").innerHTML = excuse;
 }
